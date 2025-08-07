@@ -134,6 +134,7 @@ Version:        1.0.0
 	Fonts
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Sail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* 1.1 Theme Reset Style */
 html {
   font-size: 15px;
@@ -144,12 +145,13 @@ html {
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: #5C5C5C;
   background-color: #fff;
   font-size: 18px;
   font-size: 1.2rem;
   overflow-x: hidden;
+  letter-spacing: 0.3em;
 }
 
 @media (max-width: 767px) {
@@ -258,24 +260,24 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 35px 0;
 }
 
 @media (max-width: 991px) {
   .section-padding {
-    padding: 90px 0;
+    padding: 50px 0;
   }
 }
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 45px 0;
   }
 }
 
 @media (max-width: 575px) {
   .section-padding {
-    padding: 60px 0;
+    padding: 20px 0;
   }
 }
 
@@ -2223,6 +2225,16 @@ a.ui-button:active, .ui-button:active,
   color: #657150;
 }
 
+.titleChiLam {
+   font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Sail", cursive;
+  color: #ff1b4c;
+  text-align: center;
+  padding: 10px 0 20px;
+}
 .navbar-header .navbar-brand:hover {
   color: #657150;
 }
@@ -17373,7 +17385,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-invitation-area .wpo-invitation-wrap .wpo-event-text ul {
   list-style: none;
-  max-width: 415px;
+  max-width: 500px;
   margin: 0 auto;
   margin-top: 80px;
   text-align: center;
@@ -17416,8 +17428,9 @@ a.ui-button:active, .ui-button:active,
   display: inline-block;
   margin-top: 10px;
   font-size: 22px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight: 500;
+ 
 }
 
 @media (max-width: 991px) {

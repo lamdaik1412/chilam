@@ -889,7 +889,7 @@ var _0x30e6c9 = _0x32a9;
             _0x3bd5d3 = _0x4ba4ec(this)["html"](
               _0x33aae9[_0x4138f1(0x11d)](
                 "" +
-                  '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>' +
+                  '<div class="box"><div><div class="time">%D</div> <span>Ngày</span> </div></div>' +
                   _0x4138f1(0x133) +
                   _0x4138f1(0x186) +
                   _0x4138f1(0xf3)
@@ -906,9 +906,9 @@ var _0x30e6c9 = _0x32a9;
               _0x1531d2["strftime"](
                 "" +
                   _0x241e39(0x15a) +
-                  '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>' +
+                  '<div class="box"><div><div class="time">%H</div> <span>Giờ</span> </div></div>' +
                   _0x241e39(0x186) +
-                  '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>'
+                  '<div class="box"><div><div class="time">%S</div> <span>Giây</span> </div></div>'
               )
             );
         }
@@ -1370,7 +1370,7 @@ function _0x3663() {
     "data-count",
     "show",
     "color13",
-    '<div class="box"><div><div class="time">%D</div> <span>Days</span> </div></div>',
+    '<div class="box"><div><div class="time">%D</div> <span>Ngày</span> </div></div>',
     ".mega-menu",
     "addClass",
     "#loader",
@@ -1414,7 +1414,7 @@ function _0x3663() {
     "color6",
     ".sortable-gallery .gallery-filters",
     ".slider-for",
-    '<div class="box"><div><div class="time">%M</div> <span>Mins</span> </div></div>',
+    '<div class="box"><div><div class="time">%M</div> <span>Phút</span> </div></div>',
     "slow",
     "countdown",
     "#contact-form-main",
@@ -1543,7 +1543,7 @@ function _0x3663() {
     "color-switcher-open",
     "validate",
     "top",
-    '<div class="box"><div><div class="time">%S</div> <span>Secs</span> </div></div>',
+    '<div class="box"><div><div class="time">%S</div> <span>Giây</span> </div></div>',
     "#Button9",
     ".gallery-container",
     "body",
@@ -1607,7 +1607,7 @@ function _0x3663() {
     "html",
     "slides",
     "2025-08-17 10:00:00",
-    '<div class="box"><div><div class="time">%H</div> <span>Hours</span> </div></div>',
+    '<div class="box"><div><div class="time">%H</div> <span>Giờ</span> </div></div>',
     "sticky-on",
     ".reveal3",
     "color15",
