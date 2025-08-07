@@ -1480,7 +1480,7 @@ function _0x3663() {
     "sticky-header",
     "#Button3",
     "1218139XwfByX",
-    "<a href='#' class='back-to-top'><i class='ti-arrow-up'></i></a>",
+    "",
     "stopPropagation",
     "data-background",
     "Button12",
